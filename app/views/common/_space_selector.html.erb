@@ -1,7 +1,7 @@
 <% if multi_tenant_mode? %>
   <%= nav_bar do %>
-    <li class="nav-item dropdown m-2">
-      <a class="btn btn-white dropdown-toggle" href="#navbar-extra" data-bs-toggle="dropdown"
+    <li class="nav-item dropdown<%= ' m-2' unless sidebar_mode %>">
+      <a class="<%= sidebar_mode ? 'nav-link' : 'btn btn-white' %> dropdown-toggle" href="#navbar-extra" data-bs-toggle="dropdown"
                 data-bs-auto-close="outside" role="button" aria-expanded="false" disabled=<%= user_spaces.empty? %>>
         <span class="nav-link-icon d-md-none d-lg-inline-block">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

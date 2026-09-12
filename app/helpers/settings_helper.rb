@@ -32,8 +32,19 @@ module SettingsHelper
       "body/overlap"
     when "CONDENSED"
       "body/condensed"
+    when "FOLDED", "FOLDED-HOVER"
+      "body/folded"
     else
       "body/horizontal"
+    end
+  end
+
+  def sidebar_mode
+    case AppSettings.interface_layout
+    when "FOLDED"
+      "folded"
+    when "FOLDED-HOVER"
+      "folded-hover"
     end
   end
 

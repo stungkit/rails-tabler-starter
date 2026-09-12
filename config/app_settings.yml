@@ -12,6 +12,8 @@ interface_layout:
   - STICKY
   - OVERLAP
   - CONDENSED
+  - FOLDED
+  - FOLDED-HOVER
   default: HORIZONTAL
 login_layout:
   type: string

@@ -47,7 +47,7 @@ Overhaul the UI via the `AppSettings` singleton. No CSS hunting required. All se
 
 | Category | Setting | Options |
 | --- | --- | --- |
-| **Layout** | `interface_layout` | `VERTICAL`, `VERTICAL-TRANSPARENT`, `OVERLAP`, `CONDENSED`, `HORIZONTAL` |
+| **Layout** | `interface_layout` | `VERTICAL`, `VERTICAL-TRANSPARENT`, `OVERLAP`, `CONDENSED`, `HORIZONTAL`, `FOLDED`, `FOLDED-HOVER` |
 | **Mode** | `color_mode` | `LIGHT`, `DARK` |
 | **Primary Color** | `color_scheme` | `BLUE`, `AZURE`, `INDIGO`, `PURPLE`, `PINK`, `RED`, `ORANGE`, `YELLOW`, `LIME`, `GREEN`, `TEAL`, `CYAN` |
 | **Theme** | `theme_base` | `NEUTRAL`, `SLATE`, `ZINC`, `GRAY`, `STONE`, `PINK` |

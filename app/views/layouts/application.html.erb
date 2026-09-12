@@ -5,6 +5,7 @@
   data-bs-theme-font="<%= theme_font %>"
   data-bs-theme-primary="<%= primary_color %>"
   data-bs-theme-radius="<%= corner_radius %>"
+  <% if sidebar_mode %>data-bs-sidebar="<%= sidebar_mode %>"<% end %>
   >
   <head>
     <title><%= content_for(:title) || "Rails Tabler 8" %></title>
