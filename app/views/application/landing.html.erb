@@ -4,7 +4,7 @@
       <div class="container-xl px-4">
         <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
           <a href="/">
-            <%= image_tag "logo.svg", width: "110", height: "32", alt: "Portal", class: "navbar-brand-image" %>
+            <%= inline_svg "logo.svg", width: "110", height: "32", alt: "Portal", class: "navbar-brand-image" %>
           </a>
         </h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
@@ -116,8 +116,8 @@
       <div class="container col-xxl-8 p-4">
         <div class="row p-4 align-items-center rounded-3 shadow-md">
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-            <img src="/undraw_team_spirit_re_yl1v.svg" class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <%= inline_svg "undraw_team_spirit_re_yl1v.svg", class: "d-block mx-lg-auto img-fluid",
+              alt: "Bootstrap Themes", width: "700", height: "500", loading: "lazy" %>
           </div>
           <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <span class="display-4 fw-bold lh-1">About</span><span class="display-4 fw-light lh-1"> Us</span>
@@ -385,8 +385,8 @@
             <p class="lead mb-4">Rails starter boilerplate that you can use to build and prototype quickly. Get from idea to implementation in days.</p>
             <div class="overflow-hidden">
               <div class="container px-5">
-                <img src="/undraw_maker_launch_re_rq81.svg" class="d-block mx-lg-auto img-fluid"
-                  alt="Bootstrap Themes" width="350" height="250" loading="lazy">
+                <%= inline_svg "undraw_maker_launch_re_rq81.svg", class: "d-block mx-lg-auto img-fluid",
+                  alt: "Bootstrap Themes", width: "350", height: "250", loading: "lazy" %>
               </div>
             </div>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
@@ -404,7 +404,7 @@
           <div class="col-lg-3 mb-3">
             <a class="d-inline-flex align-items-center mb-2 link-body-emphasis text-decoration-none navbar-brand-autodark" href="#"
               aria-label="Bootstrap">
-              <%= image_tag "logo.svg", width: "110", height: "32", alt: "Portal", class: "d-block me-2 navbar-brand-image" %>
+              <%= inline_svg "logo.svg", width: "110", height: "32", alt: "Portal", class: "d-block me-2 navbar-brand-image" %>
             </a>
             <ul class="list-unstyled small text-muted">
               <li class="mb-2">

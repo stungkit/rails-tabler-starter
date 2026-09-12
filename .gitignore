@@ -56,3 +56,5 @@ doc/**
 .database
 
 /.byebug_history
+
+/.playwright-mcp
