@@ -6,8 +6,6 @@
 #
 #  id                     :bigint           not null, primary key
 #  admin                  :boolean          default(FALSE)
-#  color_mode             :string
-#  color_scheme           :string
 #  confirmation_sent_at   :datetime
 #  confirmation_token     :string
 #  confirmed_at           :datetime
